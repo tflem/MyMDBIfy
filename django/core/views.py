@@ -3,7 +3,7 @@ from django.views.generic import (
 )
 from core.models import Movie
 
-class MovieDetail(DetailView)
+class MovieDetail(DetailView):
     model = Movie
 
 class MovieList(ListView):
