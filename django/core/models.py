@@ -12,8 +12,8 @@ class Movie(models.Model):
         (NOT_RATED, 'NR - Not Rated'),
         (RATED_G, 'G - General Audiences'),
         (RATED_PG, 'PG - Parental Guidance ' 'Suggested'),
-        (RATED_PG_13, 'Parents Strongly Cautioned '
-        'Material May Be Inappropriate for children under 13.'),
+        (RATED_PG_13,'PG - 13 - ' 'Parents Strongly Cautioned '
+        'Material May Be Inappropriate for Children under 13.'),
         (RATED_R, 'R - Restricted'),
     )
 
